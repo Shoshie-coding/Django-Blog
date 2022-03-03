@@ -32,6 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ["django-blog-project-crissa.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
